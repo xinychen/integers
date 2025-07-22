@@ -11,7 +11,7 @@
 <br>
 
 <div align="center">
-<img src="https://github.com/xinychen/integers/blob/main/graphics/integers.png" alt="logo" width="400px"/>
+<img src="https://github.com/xinychen/integers/blob/main/graphics/integers.png" alt="logo" width="300px"/>
 </div>
 
 
