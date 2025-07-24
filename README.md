@@ -16,13 +16,13 @@
 
 <br>
 
-<hr style="border: 0.2px solid gray;">
+#
 
 ### Interactive Visualization Tool
 
 <p align="center">
 <a href="https://xinychen.github.io/ts_periodicity">
-<img align="middle" src="https://spatiotemporal-data.github.io/images/ts_periodicity_tool.png" width="700" />
+<img align="middle" src="https://spatiotemporal-data.github.io/images/ts_periodicity_tool.png" width="720" />
 </a>
 </p>
 
