@@ -14,6 +14,10 @@
 <img src="https://github.com/xinychen/integers/blob/main/graphics/integers.png" alt="logo" width="300px"/>
 </div>
 
+<br>
+
+<hr style="border: 0.2px solid gray;">
+
 ### Interactive Visualization Tool
 
 <p align="center">
