@@ -14,6 +14,12 @@
 <img src="https://github.com/xinychen/integers/blob/main/graphics/integers.png" alt="logo" width="300px"/>
 </div>
 
+## What Is Mobility Periodicity?
 
+<p align="center">
+<video style="max-width: 90%; height: auto;" controls>
+  <source src="https://github.com/xinychen/integers/blob/main/graphics/chicago_ridesharing_ts_example.mp4" type="video/mp4">
+</video>
+</p>
 
 <br>
