@@ -14,12 +14,15 @@
 <img src="https://github.com/xinychen/integers/blob/main/graphics/integers.png" alt="logo" width="300px"/>
 </div>
 
-## What Is Mobility Periodicity?
+### Interactive Visualization Tool
 
 <p align="center">
-<video style="max-width: 90%; height: auto;" controls>
-  <source src="https://github.com/xinychen/integers/blob/main/graphics/chicago_ridesharing_ts_example.mp4" type="video/mp4">
-</video>
+<a href="https://xinychen.github.io/ts_periodicity">
+<img align="middle" src="https://spatiotemporal-data.github.io/images/ts_periodicity_tool.png" width="700" />
+</a>
 </p>
+
+<p style="font-size: 10px; color: white" align = "center"> 🔨 Anotating the time series periodicity of hourly ridesharing trip time series in Chicago since April 1, 2024.</p>
+
 
 <br>
