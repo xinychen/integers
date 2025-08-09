@@ -36,6 +36,8 @@ While human mobility exhibits clear regularity in **hourly**, **daily**, and **w
 
 <br>
 
+#
+
 ### Sparse Autoregression Explained
 
 This work claims the practical contribution in the following ways:
@@ -55,7 +57,7 @@ This work claims the practical contribution in the following ways:
 
 <br>
 
-### Our Papers
+### References
 
 <ul style="padding-left: 20px;">
   <li style="font-size: 14px; color: gray; margin-bottom: 15px;">
@@ -67,5 +69,12 @@ This work claims the practical contribution in the following ways:
   </li>
 
 </ul>
+
+<br>
+
+### Support
+
+- For any questions and feedback, please contact Dr. Xinyu Chen (chenxy346@gmail.com).
+- If you like this repository, share it with your friends and colleagues.
 
 <br>
