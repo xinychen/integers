@@ -22,9 +22,11 @@
 
 What is time series periodicity? How to get started the modeling process with machine learning and optimization? One of the most intuitive ways might be anotating the time series periodicity on the interactive visualization tool.
 
+<br>
+
 <p align="center">
 <a href="https://xinychen.github.io/ts_periodicity">
-<img align="middle" src="https://spatiotemporal-data.github.io/images/ts_periodicity_tool.png" width="750" />
+<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/ts_periodicity.png" width="750" />
 </a>
 </p>
 
