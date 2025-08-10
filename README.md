@@ -57,6 +57,19 @@ This work claims the practical contribution in the following ways:
 
 <br>
 
+# 
+
+### Data Sources
+
+- [NYC ridesharing trip dataset (High Volume For-Hire Vehicle Trip Records, HVFHV)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- [Chicago ridesharing trip dataset (2018 - 2022)](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data) [[2023 - 2024](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2023-2024-/n26f-ihde/about_data)]
+- [Daymet: Monthly Climate Summaries on a 1-km Grid for North America, Version 4 R1](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2131)
+- [NOAA High-resolution Blended Analysis of Daily SST and Ice](https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html)
+- [Kaggle Wikipedia web traffic daily dataset (without missing values)](https://zenodo.org/records/4656075)
+- [Extended Wikipedia web traffic daily dataset (without missing values)](https://zenodo.org/records/7371038)
+- [Wikipedia Traffic Data Exploration](https://www.kaggle.com/code/muonneutrino/wikipedia-traffic-data-exploration)
+
+
 ### References
 
 <ul style="padding-left: 20px;">
@@ -70,7 +83,6 @@ This work claims the practical contribution in the following ways:
 
 </ul>
 
-<br>
 
 ### Support
 
