@@ -67,8 +67,8 @@ This work claims the practical contribution in the following ways:
 - [NOAA High-resolution Blended Analysis of Daily SST and Ice](https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html)
 - [Kaggle Wikipedia web traffic daily dataset (without missing values)](https://zenodo.org/records/4656075)
 - [Extended Wikipedia web traffic daily dataset (without missing values)](https://zenodo.org/records/7371038)
+- [Wikipedia Traffic Data Exploration](https://www.kaggle.com/code/muonneutrino/wikipedia-traffic-data-exploration)
 
-<br>
 
 ### References
 
@@ -83,7 +83,6 @@ This work claims the practical contribution in the following ways:
 
 </ul>
 
-<br>
 
 ### Support
 
