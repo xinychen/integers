@@ -64,6 +64,7 @@ This work claims the practical contribution in the following ways:
 ### Data Sources
 
 - [NYC ridesharing trip dataset (High Volume For-Hire Vehicle Trip Records, HVFHV)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- [MTA Subway Hourly Ridership: 2020-2024](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)
 - [Chicago ridesharing trip dataset (2018 - 2022)](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data) [[2023 - 2024](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2023-2024-/n26f-ihde/about_data)]
 - [Daymet: Monthly Climate Summaries on a 1-km Grid for North America, Version 4 R1](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2131)
 - [NOAA High-resolution Blended Analysis of Daily SST and Ice](https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html)
