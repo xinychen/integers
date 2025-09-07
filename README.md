@@ -16,9 +16,9 @@
 
 <br>
 
-Which pre-processed datasets we could provide?
+Which datasets we could provide for examination?
 
-NYC mobility dataset | Chicago ridesharing dataset | North America climate variable dataset | Sea surface temperature dataset | [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469)
+🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) [[Source](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)] 🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) [[Source](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)] 🦉 North America climate variable dataset 🦉 Sea surface temperature dataset 🦉 [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469) [[Source](https://dumps.wikimedia.org/other/pageviews/readme.html)]
 
 #
 
