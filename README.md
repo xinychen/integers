@@ -16,6 +16,10 @@
 
 <br>
 
+Which pre-processed datasets we could provide?
+
+NYC mobility dataset | Chicago ridesharing dataset | North America climate variable dataset | Sea surface temperature dataset | [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469)
+
 #
 
 ### Interactive Visualization Tool
