@@ -18,7 +18,7 @@
 
 Which datasets we could provide for examination?
 
-🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) [[Source](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)] 🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) [[Source](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)] 🦉 North America climate variable dataset 🦉 Sea surface temperature dataset 🦉 [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469) [[Source](https://dumps.wikimedia.org/other/pageviews/readme.html)]
+🦉🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB) [[Source](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)] 🦉🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) (92 MB) [[Source](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)] 🦉🦉 [Hangzhou metro passenger flow dataset](https://github.com/xinychen/integers/tree/main/Hangzhou-metro) (4.7 MB) [[Source](https://doi.org/10.5281/zenodo.3145404)] 🦉🦉 [North America climate variable dataset](https://doi.org/10.5281/zenodo.17080922) (3.0 GB) [[Source](https://daac.ornl.gov/DAYMET)] 🦉🦉 Sea surface temperature dataset 🦉🦉 [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469) (4.7 GB) [[Source](https://dumps.wikimedia.org/other/pageviews/readme.html)]
 
 #
 
