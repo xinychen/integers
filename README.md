@@ -18,7 +18,7 @@
 
 Which datasets we could provide for examination?
 
-🦉🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB) [[Source](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)] 🦉🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) (92 MB) [[Source](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)] 🦉🦉 [Hangzhou metro passenger flow dataset](https://github.com/xinychen/integers/tree/main/Hangzhou-metro) (4.7 MB) [[Source](https://doi.org/10.5281/zenodo.3145404)] 🦉🦉 [North America climate variable dataset](https://doi.org/10.5281/zenodo.17080922) (3.0 GB) [[Source](https://daac.ornl.gov/DAYMET)] 🦉🦉 Sea surface temperature dataset 🦉🦉 [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469) (4.7 GB) [[Source](https://dumps.wikimedia.org/other/pageviews/readme.html)]
+🦉🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB, see [source](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 🦉🦉 [Manhattan subway rideship dataset](https://github.com/xinychen/integers/tree/main/Manhattan-subway) (1.1 MB, see [source](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)) 🦉🦉 [Manhattan bikesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-micromobility) (1.7 MB, see [source](https://s3.amazonaws.com/tripdata/index.html)) 🦉🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) (92 MB, see [source](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)) 🦉🦉 [Hangzhou metro passenger flow dataset](https://github.com/xinychen/integers/tree/main/Hangzhou-metro) (4.7 MB, see [source](https://doi.org/10.5281/zenodo.3145404)) 🦉🦉 [North America climate variable dataset](https://doi.org/10.5281/zenodo.17080922) (3.0 GB, see [source](https://daac.ornl.gov/DAYMET)) 🦉🦉 [Sea surface temperature dataset](https://doi.org/10.5281/zenodo.17081473) (1.3 GB, see [source](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/)) 🦉🦉 [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469) (4.7 GB, see [source](https://dumps.wikimedia.org/other/pageviews/readme.html))
 
 #
 
@@ -64,18 +64,6 @@ This work claims the practical contribution in the following ways:
 <br>
 
 # 
-
-### Data Sources
-
-- [NYC ridesharing trip dataset (High Volume For-Hire Vehicle Trip Records, HVFHV)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-- [MTA Subway Hourly Ridership: 2020-2024](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)
-- [Chicago ridesharing trip dataset (2018 - 2022)](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data) [[2023 - 2024](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2023-2024-/n26f-ihde/about_data)]
-- [Daymet: Monthly Climate Summaries on a 1-km Grid for North America, Version 4 R1](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2131)
-- [NOAA High-resolution Blended Analysis of Daily SST and Ice](https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html)
-- [Kaggle Wikipedia web traffic daily dataset (without missing values)](https://zenodo.org/records/4656075)
-- [Extended Wikipedia web traffic daily dataset (without missing values)](https://zenodo.org/records/7371038)
-- [Wikipedia Traffic Data Exploration](https://www.kaggle.com/code/muonneutrino/wikipedia-traffic-data-exploration)
-
 
 ### References
 
