@@ -36,7 +36,6 @@ In urban systems, how to align the mobility datasets of different travel modes (
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/Manhattan_stations.png" width="800" />
 </p>
 
-<br>
 
 #
 
