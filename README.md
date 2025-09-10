@@ -19,7 +19,7 @@
 Which datasets we could provide for examination?
 
 - 🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
-- 🦉 [NYC yellow taxi dataset](https://github.com/xinychen/integers/tree/main/NYC-yellow-taxi) (26 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
+- 🦉 [NYC yellow taxi dataset](https://doi.org/10.5281/zenodo.17089134) (455 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
 - 🦉 [Manhattan subway rideship dataset](https://github.com/xinychen/integers/tree/main/Manhattan-subway) (1.1 MB, see [MTA subway hourly ridership: 2020-2024](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)) 
 - 🦉 [Manhattan bikesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-micromobility) (1.7 MB, see [Citi bike system data - NYC](https://s3.amazonaws.com/tripdata/index.html)) 
 - 🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) (92 MB, see [Transportation Network Providers (TNP) - Trips (2018 - 2022)](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)) 
@@ -30,7 +30,6 @@ Which datasets we could provide for examination?
 
 In urban systems, how to align the mobility datasets of different travel modes (e.g., ridesharing, taxi, subway, and bikesharing) with the same spatial resolution?
 
-<br>
 
 <p align="center">
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/Manhattan_stations.png" width="800" />
