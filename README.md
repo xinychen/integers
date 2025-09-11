@@ -28,6 +28,12 @@ Which datasets we could provide for examination?
 - 🦉 [Sea surface temperature dataset (1980-2019)](https://doi.org/10.5281/zenodo.17081473) (1.3 GB, see [Sea surface temperature optimum interpolation](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/)) 
 - 🦉 [Wikipedia page view dataset (January 2024)](https://doi.org/10.5281/zenodo.17070469) (4.7 GB, see [Analytics datasets: Pageviews](https://dumps.wikimedia.org/other/pageviews/readme.html))
 
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/integers_frame.png" width="550" />
+</p>
+
+<br>
+
 In urban systems, how to align the mobility datasets of different travel modes (e.g., ridesharing, taxi, subway, and bikesharing) with the same spatial resolution?
 
 
