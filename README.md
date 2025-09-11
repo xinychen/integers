@@ -18,15 +18,15 @@
 
 Which datasets we could provide for examination?
 
-- 🦉 [NYC ridesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
-- 🦉 [NYC yellow taxi dataset](https://doi.org/10.5281/zenodo.17089134) (455 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
-- 🦉 [Manhattan subway rideship dataset](https://github.com/xinychen/integers/tree/main/Manhattan-subway) (1.1 MB, see [MTA subway hourly ridership: 2020-2024](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)) 
-- 🦉 [Manhattan bikesharing dataset](https://github.com/xinychen/integers/tree/main/NYC-micromobility) (1.7 MB, see [Citi bike system data - NYC](https://s3.amazonaws.com/tripdata/index.html)) 
-- 🦉 [Chicago ridesharing dataset](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) (92 MB, see [Transportation Network Providers (TNP) - Trips (2018 - 2022)](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)) 
-- 🦉 [Hangzhou metro passenger flow dataset](https://github.com/xinychen/integers/tree/main/Hangzhou-metro) (4.7 MB, see [Hangzhou metro passenger data - 2019](https://doi.org/10.5281/zenodo.3145404)) 
-- 🦉 [North America climate variable dataset](https://doi.org/10.5281/zenodo.17080922) (3.0 GB, see [Daymet](https://daac.ornl.gov/DAYMET)) 
-- 🦉 [Sea surface temperature dataset](https://doi.org/10.5281/zenodo.17081473) (1.3 GB, see [Sea surface temperature optimum interpolation](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/)) 
-- 🦉 [Wikipedia page view dataset](https://doi.org/10.5281/zenodo.17070469) (4.7 GB, see [Analytics datasets: Pageviews](https://dumps.wikimedia.org/other/pageviews/readme.html))
+- 🦉 [NYC ridesharing dataset (2019-2024)](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
+- 🦉 [NYC yellow taxi dataset (2011-2024)](https://doi.org/10.5281/zenodo.17089134) (455 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
+- 🦉 [Manhattan subway rideship dataset (2024)](https://github.com/xinychen/integers/tree/main/Manhattan-subway) (1.1 MB, see [MTA subway hourly ridership: 2020-2024](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)) 
+- 🦉 [Manhattan bikesharing dataset (2024)](https://github.com/xinychen/integers/tree/main/NYC-micromobility) (1.7 MB, see [Citi bike system data - NYC](https://s3.amazonaws.com/tripdata/index.html)) 
+- 🦉 [Chicago ridesharing dataset (2018-2024)](https://github.com/xinychen/integers/tree/main/Chicago-ridesharing) (92 MB, see [Transportation Network Providers (TNP) - Trips (2018 - 2022)](https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips-2018-2022-/m6dm-c72p/about_data)) 
+- 🦉 [Hangzhou metro passenger flow dataset (2019)](https://github.com/xinychen/integers/tree/main/Hangzhou-metro) (4.7 MB, see [Hangzhou metro passenger data - 2019](https://doi.org/10.5281/zenodo.3145404)) 
+- 🦉 [North America climate variable dataset (1980-2019)](https://doi.org/10.5281/zenodo.17080922) (3.0 GB, see [Daymet](https://daac.ornl.gov/DAYMET)) 
+- 🦉 [Sea surface temperature dataset (1980-2019)](https://doi.org/10.5281/zenodo.17081473) (1.3 GB, see [Sea surface temperature optimum interpolation](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/)) 
+- 🦉 [Wikipedia page view dataset (January 2024)](https://doi.org/10.5281/zenodo.17070469) (4.7 GB, see [Analytics datasets: Pageviews](https://dumps.wikimedia.org/other/pageviews/readme.html))
 
 In urban systems, how to align the mobility datasets of different travel modes (e.g., ridesharing, taxi, subway, and bikesharing) with the same spatial resolution?
 
