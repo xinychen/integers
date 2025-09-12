@@ -28,6 +28,8 @@ Which datasets we could provide for examination?
 - 🦉 [Sea surface temperature dataset (1980-2019)](https://doi.org/10.5281/zenodo.17081473) (1.3 GB, see [Sea surface temperature optimum interpolation](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/)) 
 - 🦉 [Wikipedia page view dataset (January 2024)](https://doi.org/10.5281/zenodo.17070469) (4.7 GB, see [Analytics datasets: Pageviews](https://dumps.wikimedia.org/other/pageviews/readme.html))
 
+These mobility and climate datasets are formatted as multidimensional tensors and saved as NumPy arrays in the compressed form, i.e., `.npz`. 
+
 <p align="center">
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/integers_frame.png" width="550" />
 </p>
@@ -95,7 +97,7 @@ This work claims the practical contribution in the following ways:
   </li>
 
   <li style="font-size: 14px; color: gray; margin-bottom: 15px;">
-    Xinyu Chen, Qi Wang, Yunhan Zheng, Nina Cao, HanQin Cai, Jinhua Zhao (2025). <a href="http://arxiv.org/abs/2508.03747">Data-driven discovery of mobility periodicity for understanding urban transportation systems</a>. arXiv preprint arXiv:2508.03747.
+    Xinyu Chen, Qi Wang, Yunhan Zheng, Nina Cao, HanQin Cai, Jinhua Zhao (2025). <a href="http://arxiv.org/abs/2508.03747">Data-driven discovery of mobility periodicity for understanding urban systems</a>. arXiv preprint arXiv:2508.03747.
   </li>
 
 </ul>
