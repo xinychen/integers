@@ -70,6 +70,8 @@ While human mobility exhibits clear regularity in **hourly**, **daily**, and **w
 
 ### Sparse Autoregression Explained
 
+#### Statement
+
 This work claims the practical contribution in the following ways:
 
 - The classical autoregression can capture auto-correlations, but we do not know which are the dominant auto-correaltions.
@@ -84,6 +86,38 @@ This work claims the practical contribution in the following ways:
 </p>
 
 <p align = "center"> <b>Figure 2</b>. Identification of the dominant auto-correlations from time series through sparse autoregression. The sparsity constraint allows one to find the dominant auto-correlated time lags (e.g., k = 1, 24, 167, 168).</p>
+
+<br>
+
+#### Toy Examples with Sample Time Series
+
+The sample time series of this example is available at `Chicago-ridesharing/rideshare_ts.txt`.
+
+```python
+import pandas as pd
+import numpy as np
+
+data = pd.read_csv('rideshare_ts.txt', sep = ' ', header = None, index_col = 0, names = ['trip_count'])
+```
+
+One can draw the time series as follows,
+
+```python
+import matplotlib.pyplot as plt
+
+fig = plt.figure(figsize = (6, 1.4))
+ax = fig.add_subplot(1, 1, 1)
+plt.plot(data['trip_count'].values[: 2 * 7 * 24], color = 'purple', alpha = 0.75, linewidth = 2)
+plt.xticks(np.arange(0, 24 * 7 * 3 + 1, 7 * 24))
+plt.xlabel('Time (hour)')
+plt.ylabel('Trip count')
+plt.grid(axis = 'both', linestyle='dashed', linewidth = 0.1, color = 'gray')
+ax.tick_params(direction = 'in')
+ax.set_xlim([-1, 24 * 7 * 2])
+plt.show()
+```
+
+
 
 <br>
 
