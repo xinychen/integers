@@ -70,7 +70,7 @@ While human mobility exhibits clear regularity in **hourly**, **daily**, and **w
 
 ### Sparse Autoregression Explained
 
-#### Statement
+#### i) Statement
 
 This work claims the practical contribution in the following ways:
 
@@ -89,9 +89,9 @@ This work claims the practical contribution in the following ways:
 
 <br>
 
-#### Toy Examples with Sample Time Series
+#### ii) Sample Time Series
 
-The sample time series of this example is available at `Chicago-ridesharing/rideshare_ts.txt`.
+The sample time series of as shown in Figures 1 and 2 is available at `Chicago-ridesharing/rideshare_ts.txt`.
 
 ```python
 import pandas as pd
@@ -117,7 +117,62 @@ ax.set_xlim([-1, 24 * 7 * 2])
 plt.show()
 ```
 
+<br>
 
+#### iii) Mixed-Integer Optimization for Sparse Autoregression
+
+We use `cplex` as the mixed-integer optimization solver in our Python implementation. The setting of sparse autoregression includes `d` (order) and `tau` (sparsity level).
+
+```python
+import numpy as np
+from docplex.mp.model import Model
+
+def obj(x, w, d):
+    T = x.shape[0]
+    loss = 0
+    for t in range(d, T):
+        loss += (x[t] - np.inner(w, np.flip(x[t - d : t]))) ** 2
+    return loss
+
+def ar_mio(x, d, tau):
+    model = Model()
+    alpha = 1
+    T = x.shape[0]
+    w = [model.continuous_var(name = f'w_{k}') for k in range(d)]
+    beta = [model.binary_var(name = f'beta_{k}') for k in range(d)]
+    model.minimize(model.sum((x[t] - model.sum(w[k] * x[t - k - 1] for k in range(d))) ** 2 for t in range(d, T)))
+    model.add_constraint(model.sum(beta[k] for k in range(d)) <= tau)
+    for k in range(d):
+        model.add_constraint(w[k] <= alpha * beta[k])
+        model.add_constraint(w[k] >= - alpha * beta[k])
+    solution = model.solve()
+    return np.array(solution.get_values(w))
+```
+
+On the sample time series as mentioned above, please reproduce our results by running the following codes:
+
+```python
+import numpy as np
+
+d = 168
+for tau in range(1, 7):
+    w = ar_mio(data['trip_count'].values[: 2 * 7 * 24], d, tau)
+    print('tau = {}'.format(tau))
+    print('Objective function f = {}'.format(obj(x, w, d)))
+    ind = np.where(w != 0)[0].tolist()
+    print('Support set: {}'.format(ind))
+    print('Nonzero coefficients: {}'.format(w[ind]))
+    print()
+```
+
+Here, the result at the sparsity level `tau = 6` is given by
+
+```python
+tau = 6
+Objective function f = 50844056.30946854
+Support set: [0, 22, 23, 33, 166, 167]
+Nonzero coefficients: [0.29769501 0.00173922 0.03533629 0.00832573 0.16595001 0.48356377]
+```
 
 <br>
 
