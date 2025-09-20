@@ -16,7 +16,7 @@
 
 <br>
 
-Which datasets we could provide for examination?
+Which datasets we could provide for experimental evaluation?
 
 - 🦉 [NYC ridesharing dataset (2019-2024)](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
 - 🦉 [NYC yellow taxi dataset (2011-2024)](https://doi.org/10.5281/zenodo.17089134) (455 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
@@ -48,7 +48,7 @@ In urban systems, how to align the mobility datasets of different travel modes (
 
 ### Interactive Visualization Tool
 
-What is time series periodicity? How to get started the modeling process with machine learning and optimization? One of the most intuitive ways might be anotating the time series periodicity on the interactive visualization tool.
+What is the time series periodicity? How to get started the modeling process with machine learning and optimization? One of the most intuitive ways might be anotating the time series periodicity on the interactive visualization tool.
 
 <br>
 
@@ -100,7 +100,7 @@ import numpy as np
 data = pd.read_csv('rideshare_ts.txt', sep = ' ', header = None, index_col = 0, names = ['trip_count'])
 ```
 
-One can draw the time series as follows,
+One can draw the two-week time series as follows,
 
 ```python
 import matplotlib.pyplot as plt
