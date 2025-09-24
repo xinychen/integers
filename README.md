@@ -34,15 +34,20 @@ These mobility and climate datasets are formatted as multidimensional tensors an
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/integers_frame.png" width="550" />
 </p>
 
+<p align = "center"> <b>Figure 1</b>. Conceptual overview of the diverse open datasets for periodicity quantification.</p>
+
 <br>
 
-In urban systems, how to align the mobility datasets of different travel modes (e.g., ridesharing, taxi, subway, and bikesharing) with the same spatial resolution?
+In urban systems, how to align the mobility datasets of different travel modes (e.g., ridesharing, taxi, subway, and bikesharing) with the same spatial resolution? For instance, Manhattan has hundreds of subway and bikesharing stations and 69 taxi areas, one can first project subway and bikesharing stations onto taxi areas and then aggregate trip counts.
 
 
 <p align="center">
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/Manhattan_stations.png" width="800" />
 </p>
 
+<p align = "center"> <b>Figure 2</b>. (A) Subway stations are projected onto 52 areas in Manhattan. (B) Bikesharing stations are projected onto 67 areas in Manhattan.</p>
+
+<br>
 
 #
 
@@ -58,7 +63,7 @@ What is the time series periodicity? How to get started the modeling process wit
 </a>
 </p>
 
-<p align = "center"> <b>Figure 1</b>. Anotating the time series periodicity of hourly ridesharing trip time series in Chicago since April 1, 2024.</p>
+<p align = "center"> <b>Figure 3</b>. Anotating the time series periodicity of hourly ridesharing trip time series in Chicago since April 1, 2024.</p>
 
 <br>
 
@@ -85,7 +90,7 @@ This work claims the practical contribution in the following ways:
 </a>
 </p>
 
-<p align = "center"> <b>Figure 2</b>. Identification of the dominant auto-correlations from time series through sparse autoregression. The sparsity constraint allows one to find the dominant auto-correlated time lags (e.g., k = 1, 24, 167, 168).</p>
+<p align = "center"> <b>Figure 4</b>. Identification of the dominant auto-correlations from time series through sparse autoregression. The sparsity constraint allows one to find the dominant auto-correlated time lags (e.g., <img style="display: inline;" src="https://latex.codecogs.com/svg.latex?&space;k=1,24,167,168"/>).</p>
 
 <br>
 
