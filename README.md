@@ -30,6 +30,8 @@ Which datasets we could provide for experimental evaluation?
 
 These mobility and climate datasets are formatted as multidimensional tensors and saved as NumPy arrays in the compressed form, i.e., `.npz`. 
 
+<br>
+
 <p align="center">
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/integers_frame.png" width="550" />
 </p>
@@ -40,6 +42,7 @@ These mobility and climate datasets are formatted as multidimensional tensors an
 
 In urban systems, how to align the mobility datasets of different travel modes (e.g., ridesharing, taxi, subway, and bikesharing) with the same spatial resolution? For instance, Manhattan has hundreds of subway and bikesharing stations and 69 taxi areas, one can first project subway and bikesharing stations onto taxi areas and then aggregate trip counts.
 
+<br>
 
 <p align="center">
 <img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/Manhattan_stations.png" width="800" />
