@@ -148,7 +148,7 @@ def obj(x, w, d):
         loss += (x[t] - np.inner(w, np.flip(x[t - d : t]))) ** 2
     return loss
 
-def ar_mio(x, d, tau):
+def sparse_ar(x, d, tau):
     model = Model()
     alpha = 1
     T = x.shape[0]
@@ -170,7 +170,7 @@ import numpy as np
 
 d = 168
 for tau in range(1, 7):
-    w = ar_mio(data['trip_count'].values[: 2 * 7 * 24], d, tau)
+    w = sparse_ar(data['trip_count'].values[: 2 * 7 * 24], d, tau)
     print('tau = {}'.format(tau))
     print('Objective function f = {}'.format(obj(x, w, d)))
     ind = np.where(w != 0)[0].tolist()
