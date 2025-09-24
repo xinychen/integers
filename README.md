@@ -129,10 +129,11 @@ plt.show()
 
 #### iii) Mixed-Integer Optimization for Sparse Autoregression
 
-We use `cplex` as the mixed-integer optimization solver in our Python implementation. The setting of sparse autoregression includes `d` (order) and `tau` (sparsity level).
+We use `cplex` as the mixed-integer optimization solver in our Python implementation. The setting of sparse autoregression includes `d` (order) and `tau` (sparsity level). The optimization problem of sparse autoregression can be reformulated as follows,
 
 <p align = "center"><img align="middle" src="https://latex.codecogs.com/svg.latex?&space;\min_{\boldsymbol{w},\boldsymbol{\beta}}\,\,\underbrace{\sum_{t=d+1}^{T}\left(x_{t}-\sum_{k=1}^{d}w_{k}x_{t-k}\right)^2}_{\text{\color{red}autoregression}}\quad\text{s.t.}\,\,\underbrace{-\alpha\cdot\beta_{k}\leq\,w_{k}\leq\alpha\cdot\beta_{k}}_{\text{\color{blue}bound}},\,\,\,\underbrace{\sum_{k=1}^{d}\beta_{k}\leq\tau}_{\text{\color{blue}sparsity}},\,\,\,\underbrace{\beta_{k}\in\{0,1\}}_{\text{\color{blue}binary}}"/></p>
 
+by introducing binary decision variables.
 
 <br>
 
