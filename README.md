@@ -89,7 +89,7 @@ This work claims the practical contribution in the following ways:
 
 <p align="center">
 <a href="https://xinychen.github.io/slides/autoregression.pdf">
-<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/autoregression.png" width="750" />
+<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/autoregression_plus_code.png" width="750" />
 </a>
 </p>
 
