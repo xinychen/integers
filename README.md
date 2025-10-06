@@ -99,7 +99,7 @@ This work claims the practical contribution in the following ways:
 
 #### ii) Sample Time Series
 
-The sample time series of as shown in Figures 1 and 2 is available at `Chicago-ridesharing/rideshare_ts.txt`.
+The sample time series of as shown in Figures 3 and 4 is available at `Chicago-ridesharing/rideshare_ts.txt`.
 
 ```python
 import pandas as pd
