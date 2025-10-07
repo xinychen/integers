@@ -75,7 +75,7 @@ While human mobility exhibits clear regularity in **hourly**, **daily**, and **w
 <br>
 
 <p align="center">
-<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/page_view_heatmap.png" width="380" />
+<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/page_view_heatmap.png" width="350" />
 </p>
 
 <p align = "center"> <b>Figure 4</b>. Hourly time series of number of views on the 3-million Wikipedia page data in January 2024. These views are up to 72% of the total Wikipedia page views.</p>
