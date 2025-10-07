@@ -101,7 +101,7 @@ This work claims the practical contribution in the following ways:
 </a>
 </p>
 
-<p align = "center"> <b>Figure 4</b>. Identification of the dominant auto-correlations from time series through sparse autoregression. The sparsity constraint allows one to find the dominant auto-correlated time lags (e.g., <img style="display: inline;" src="https://latex.codecogs.com/svg.latex?&space;k=1,24,167,168"/>).</p>
+<p align = "center"> <b>Figure 5</b>. Identification of the dominant auto-correlations from time series through sparse autoregression. The sparsity constraint allows one to find the dominant auto-correlated time lags (e.g., <img style="display: inline;" src="https://latex.codecogs.com/svg.latex?&space;k=1,24,167,168"/>).</p>
 
 <br>
 
