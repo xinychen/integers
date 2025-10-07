@@ -70,7 +70,15 @@ What is the time series periodicity? How to get started the modeling process wit
 
 <br>
 
-While human mobility exhibits clear regularity in **hourly**, **daily**, and **weekly cycles**, the greatest challenge lies in accurately modeling these patterns.
+While human mobility exhibits clear regularity in **hourly**, **daily**, and **weekly cycles**, the greatest challenge lies in accurately modeling these patterns. In addition, as shown in Figure 4, Wikipedia page view time series also demonstrate periodic patterns across multiple cycles.
+
+<br>
+
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/integers/blob/main/graphics/page_view_heatmap.png" width="380" />
+</p>
+
+<p align = "center"> <b>Figure 4</b>. Hourly time series of number of views on the 3-million Wikipedia page data in January 2024. These views are up to 72% of the total Wikipedia page views.</p>
 
 <br>
 
@@ -99,7 +107,7 @@ This work claims the practical contribution in the following ways:
 
 #### ii) Sample Time Series
 
-The sample time series of as shown in Figures 3 and 4 is available at `Chicago-ridesharing/rideshare_ts.txt`.
+The sample time series of as shown in Figures 3 and 5 is available at `Chicago-ridesharing/rideshare_ts.txt`.
 
 ```python
 import pandas as pd
