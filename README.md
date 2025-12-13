@@ -1,6 +1,6 @@
 # integers
 
-**In**terpretable **t**ime **s**eries autoregression for periodicity quantification (**ints** ⮕ **integers**). [[Slides](https://xinychen.github.io/slides/ints.pdf)] [[Project description](https://xinychen.github.io/tutorial/integers.pdf)]
+**In**terpretable **t**ime **s**eries autoregression for periodicity quantification (**ints** ⮕ **integers**). [[Slides](https://xinychen.github.io/slides/ints.pdf)]
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![repo size](https://img.shields.io/github/repo-size/xinychen/integers.svg)](https://github.com/xinychen/integers/archive/master.zip)
