@@ -18,7 +18,7 @@
 
 Which datasets we could provide for experimental evaluation?
 
-- 🦉 [NYC ridesharing dataset (2019-2024)](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (622 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
+- 🦉 [NYC ridesharing dataset (2019-2025)](https://github.com/xinychen/integers/tree/main/NYC-ridesharing) (717 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
 - 🦉 [NYC yellow taxi dataset (2011-2024)](https://doi.org/10.5281/zenodo.17089134) (455 MB, see [TLC trip record data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) 
 - 🦉 [Manhattan subway rideship dataset (2024)](https://github.com/xinychen/integers/tree/main/Manhattan-subway) (1.1 MB, see [MTA subway hourly ridership: 2020-2024](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)) 
 - 🦉 [Manhattan bikesharing dataset (2024)](https://github.com/xinychen/integers/tree/main/NYC-micromobility) (1.7 MB, see [Citi bike system data - NYC](https://s3.amazonaws.com/tripdata/index.html)) 
