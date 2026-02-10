@@ -171,6 +171,8 @@ def sparse_ar(x, d, tau):
     return np.array(solution.get_values(w))
 ```
 
+> In most mathematical programming libraries (e.g., `CPLEX`/`docplex`, which this syntax suggests), the `continuous_var` function defaults the lower bound of a variable to 0 unless explicitly told otherwise.
+
 On the sample time series as mentioned above, please reproduce our results by running the following codes:
 
 ```python
