@@ -179,8 +179,9 @@ On the sample time series as mentioned above, please reproduce our results by ru
 import numpy as np
 
 d = 168
+x = data['trip_count'].values[: 2 * 7 * 24]
 for tau in range(1, 7):
-    w = sparse_ar(data['trip_count'].values[: 2 * 7 * 24], d, tau)
+    w = sparse_ar(x, d, tau)
     print('tau = {}'.format(tau))
     print('Objective function f = {}'.format(obj(x, w, d)))
     ind = np.where(w != 0)[0].tolist()
