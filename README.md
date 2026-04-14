@@ -26,7 +26,7 @@ Which datasets we could provide for experimental evaluation?
 - 🦉 [Hangzhou metro passenger flow dataset (2019)](https://github.com/xinychen/integers/tree/main/Hangzhou-metro) (4.7 MB, see [Hangzhou metro passenger data - 2019](https://doi.org/10.5281/zenodo.3145404)) 
 - 🦉 [North America climate variable dataset (1980-2019)](https://doi.org/10.5281/zenodo.17080922) (3.0 GB, see [Daymet](https://daac.ornl.gov/DAYMET)) 
 - 🦉 [Sea surface temperature dataset (1980-2019)](https://doi.org/10.5281/zenodo.17081473) (1.3 GB, see [Sea surface temperature optimum interpolation](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/)) 
-- 🦉 [Wikipedia page view dataset (January 2024)](https://doi.org/10.5281/zenodo.17070469) (4.7 GB, see [Analytics datasets: Pageviews](https://dumps.wikimedia.org/other/pageviews/readme.html))
+- 🦉 [Wikipedia page view dataset (2024)](https://doi.org/10.5281/zenodo.17070469) (15.95 GB, see [Analytics datasets: Pageviews](https://dumps.wikimedia.org/other/pageviews/readme.html))
 
 These mobility and climate datasets are formatted as multidimensional tensors and saved as NumPy arrays in the compressed form, i.e., `.npz`. 
 
